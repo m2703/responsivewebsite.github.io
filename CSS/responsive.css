@@ -1,0 +1,48 @@
+@media only screen and (max-width:1208px){
+
+    .navbar{
+        flex-direction: column;
+        height: 530px;
+        transition: all 0.7s ease-out;
+    }
+    .navlist{
+        flex-direction: column;
+    }
+    #Search{
+        width: 100%;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+    .box-main{ max-width: 100%
+
+        
+    }
+    .section{
+        flex-direction: column-reverse;
+        margin: 24px ;
+        max-width: 100%
+
+
+    }
+    .thumbnail img{
+        width: 250px;
+    }
+        
+      .para{
+          padding: 0 0;
+      }
+        
+
+   
+}

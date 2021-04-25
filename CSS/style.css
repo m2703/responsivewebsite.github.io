@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+html{
+
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 15%;
+    display: flex;
+    justify-content: center center;
+    align-items: center;
+   
+}
+
+
+.logo img{
+    width: 77%;
+    border: 2px solid #fffefe;
+    border-radius: 29px;
+    
+    
+}
+
+.navbar{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+   cursor: pointer;
+}
+
+
+.rightNav{
+ width: 20%;
+text-align: right;
+background-color: ;
+align-items: center;
+
+padding: 0,4px;
+
+
+
+}
+
+.navlist{
+
+    width: 60%;
+    background-color:;
+    display: flex;
+    
+    align-items: center;
+
+}
+
+.navlist li{
+  list-style: none;
+  margin: 12px;
+  padding: 26px 30px;
+}
+.navlist li:hover{
+  list-style: none;
+  margin: 12px;
+  padding: 26px 30px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family:  'Ubuntu', sans-serif;
+   
+
+}
+.navlist li a:hover{
+    text-decoration: none;
+    color: grey;
+
+}
+#Search{
+    height: 1px;
+    width: 200px;
+    margin-top: -31px;
+    border-radius: 9px;
+    padding: 19px;
+}
+.btn{
+    padding: 6px 2px;
+    margin-right: 60px;
+    font-size: 20px;
+    border: 5px solid white;
+    background: none;
+     border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    margin: 2px 3px;
+}
+.btn-sm{
+    padding: 4px 10px;
+    margin-right: 60px;
+    font-size: 15px;
+    border: 5px solid white;
+    background: none;
+     border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    margin: 2px 3px;
+}
+
+.btn:hover{
+    background-color: grey;
+    text-decoration: underline;
+    color: yellow;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0) url('/images/zia-syed-gOq27RHoL3s-unsplash.jpg');
+   background-size: cover;
+   background-blend-mode: darken;
+}
+.firstSection{
+    height: auto;
+}
+
+.box-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   max-width: 50%;
+   margin: auto;
+
+  
+}
+
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.SecondHalf{
+    width: 40%;
+  
+}
+.SecondHalf img{
+
+    width: 83%;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: block;
+    margin: 35px;
+}
+.conta{
+    display: flex;
+    margin-top: 329px;
+    flex-direction: row
+    ;
+}
+
+.text-big{
+     font-size: 41px;
+}
+
+.text-small{
+font-size: 28px;
+
+
+}
+.buttons{
+    align-items: center;
+    justify-content: center;
+}
+
+.section{
+    display: flex;
+    max-width: 80%;
+   justify-content: space-evenly;
+align-items: center;
+  
+margin: auto;
+
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    padding: 0 98px;
+}
+.sectionTag{
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 16px 0px;
+
+
+}
+.sectionsubTag{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.left{
+    flex-direction: row-reverse;
+}
+
+.thumbnail img{
+    width: 380px;
+    padding: 4px;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+.contact{
+    background-color: bisque;
+    height: 1000px;
+}
+.text-center{
+    text-align: center;
+    padding: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+}
+.form{
+    max-width: 60%;
+    margin: 42px auto;
+}
+
+.form-input{
+    margin:30px 0 ;
+    padding:5px 3px ;
+    width: 100%;
+    font-size:19px ;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn-dark{
+    background-color: #002bff;
+    border: 2px solid grey;
+}
+.text-footer{
+    text-align: center;
+    padding: 10px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    padding: 2px;
+    margin: 3px 11px;
+
+
+}
+
+
+@media only screen and (max-width:1208px){
+
+    .navbar{
+        flex-direction: column;
+        height: 530px;
+        transition: all 0.7s ease-out;
+    }
+    .navlist{
+        flex-direction: column;
+    }
+    #Search{
+        width: 100%;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+    .box-main{ max-width: 100%
+
+        
+    }
+    .section{
+        flex-direction: column-reverse;
+        margin: 24px ;
+        max-width: 100%
+
+
+    }
+    .thumbnail img{
+        width: 250px;
+    }
+        
+      .para{
+          padding: 0 0;
+      }
+        
+
+   
+}
+
